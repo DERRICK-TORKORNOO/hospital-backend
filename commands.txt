@@ -1,0 +1,6 @@
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO derrick;
+GRANT ALL ON SCHEMA public TO public;
+
+psql -U derrick -d hospital_db
